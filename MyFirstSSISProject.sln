@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "FlatFilePkg", "Integration Services Project1\FlatFilePkg.dtproj", "{09AEF4B8-D745-4978-B129-5C265237457F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09AEF4B8-D745-4978-B129-5C265237457F}.Development|Default.ActiveCfg = Development
+		{09AEF4B8-D745-4978-B129-5C265237457F}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39328786-B534-4DA1-867A-56A69A12EB5B}
+	EndGlobalSection
+EndGlobal

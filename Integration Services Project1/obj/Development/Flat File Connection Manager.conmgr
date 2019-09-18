@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Flat File Connection Manager"
+  DTS:DTSID="{5A995494-70D1-4C19-B54B-D20BFC41C6EC}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="1033"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:ColumnNamesInFirstDataRow="True"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1252"
+      DTS:ConnectionString="D:\Practice\SSIS\UserData.txt">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x0009_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="first_name"
+          DTS:DTSID="{78433F5C-ADCF-49F0-86E5-7536D1729D33}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x0009_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="last_name"
+          DTS:DTSID="{8F882F9C-EE18-4659-94BD-9E8BB188A671}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x0009_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="company_name"
+          DTS:DTSID="{5646CBF4-67F4-44B0-9044-9A2F79E46EC7}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x0009_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="address"
+          DTS:DTSID="{CE058577-2982-4349-82E4-14637385B4A6}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x0009_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="city"
+          DTS:DTSID="{07CE7E7B-D411-4963-8EDA-BA0C95E39D37}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x0009_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="county"
+          DTS:DTSID="{76B13B43-1398-45FD-9980-123FACC0A184}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x0009_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="state"
+          DTS:DTSID="{A09804AA-8DA8-4FB6-8A81-104E8673CE27}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x0009_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="zip"
+          DTS:DTSID="{363277FA-A1AA-49E5-82CB-34F864EF2095}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x0009_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="phone"
+          DTS:DTSID="{64CF717A-4156-43EB-B017-353D2637E6BF}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x0009_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="email"
+          DTS:DTSID="{F1F7FF48-D1DB-4DE1-BD4E-4A597F60A28C}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="web"
+          DTS:DTSID="{1C7AFED1-4DB1-4670-B10A-1BD5148477C6}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
